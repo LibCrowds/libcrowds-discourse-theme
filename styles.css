@@ -1,0 +1,179 @@
+/* General */
+
+body h1+p,
+body h2+p,
+body h3+p,
+body h4+p,
+body h5+p,
+body h6+p {
+    margin: inherit;
+}
+
+a:visited {
+    color: #D00000;
+}
+
+.user-main .details .h1,
+.user-main .details .h2,
+.user-main .details .h3,
+.user-main .details h1,
+.user-main .details h2,
+.user-main .details h3 {
+    color: #fff;
+}
+
+.user-main .about.collapsed-info .about .controls .right {
+    float: none;
+}
+
+.user-archive {
+    text-align: center;
+}
+
+.wrap .contents.clearfix .panel.clearfix {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+}
+
+.category-breadcrumb {
+    padding-bottom: 10px;
+}
+
+.category-description {
+    text-align: left;
+}
+
+.list-controls .btn {
+    font-size: 15px;
+}
+
+th.category.sortable,
+td.category {
+    text-align: center;
+}
+
+/* Navigation */
+
+.nav.nav-pills .active a:hover {
+    color: #fff;
+}
+
+.admin-nav {
+    font-size: 12px;
+}
+
+.nav-stacked .active>a::after {
+    top:20%;
+}
+
+/* Modals */
+
+.modal-body {
+    margin: 5px 20px;
+    font-size: 14px;
+}
+
+.modal-header {
+    padding: 5px 20px;
+}
+
+/* Buttons */
+
+.btn-primary[href] {
+    color: #222;
+}
+
+.btn[disabled] {
+    background-color: inherit;
+}
+
+.btn[disabled]:hover {
+    background-color: inherit;
+}
+
+
+/* Badges */
+
+.badge-notification {
+    padding: 2px 8px 4px 7px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.badge-notification::before {
+    content: ""!important;
+    margin: 0 auto;
+}
+
+.badge-notification.new-topic {
+    background-color: #398439;
+    color: #fff;
+}
+
+.badge-notification.new-posts,
+.badge-notification.unread-posts {
+    background-color: #4190c2;
+}
+
+.badge-user .badge-info {
+    background-color: inherit;
+}
+
+
+/* Topics */
+
+#topic-progress-wrapper.docked {
+    bottom: 0px;
+}
+
+#topic-progress {
+    border: 1px solid #E9E9E9;
+    color: #8B8B8B;
+}
+
+#topic-progress .bg {
+    border-right: #94FF94;
+    background-color: #94FF94;
+}
+
+.topic-list.categories>thead {
+    border-left: 6px solid #D8D8D8
+}
+
+.topic-list a.title {
+    color: #222 !important;
+}
+
+
+/* Footer */
+
+#main-footer {
+    margin-top: 100px;
+    position: absolute;
+}
+
+#main-footer .row {
+    width: 100%;
+}
+
+#main-footer .footer-col {
+    width: 33.33333333%;
+    display: inherit;
+    justify-content: center;
+}
+
+footer.topic-list-bottom {
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
