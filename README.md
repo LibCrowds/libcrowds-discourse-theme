@@ -9,8 +9,8 @@ and adds a handful of tweaks to tidy things up.
 ## Installation
 
 From the Discourse admin section go to Customize > CSS/HTML, click **Import** and select
-the file [libcrowds.json](libcrowds.json). Once the import is complete check the
-**Enabled** box and click **Save**.
+the file [libcrowds-theme.dcstyle.json](libcrowds-theme.dcstyle.json). Once the import is
+complete check the **Enabled** box and click **Save**.
 
 
 ## Requirements
@@ -25,4 +25,4 @@ from [libcrowds-pybossa-theme](https://github.com/LibCrowds/libcrowds-pybossa-th
 
 ## Contributing
 
-Suggestions or bugs of any kind can be reported as [issues](http://community.libcrowds.com/).
+Any suggestions or bugs can be reported as [issues](https://github.com/LibCrowds/libcrowds-discourse-theme/issues).
