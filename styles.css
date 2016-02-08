@@ -66,11 +66,10 @@ p {
 }
 
 @media (max-width: 767px) {
-  .hidden-xs {
-    display: none !important;
-  }
+    .hidden-xs {
+        display: none !important;
+    }
 }
-
 
 /* Navigation */
 
@@ -225,8 +224,4 @@ footer.topic-list-bottom {
     #main-footer .footer-col {
         width: 33.33333333%;
     }
-    #main-outlet {
-        padding: 0;
-    }
-
 }
