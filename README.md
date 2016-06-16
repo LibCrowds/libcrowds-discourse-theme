@@ -8,21 +8,27 @@ and adds a handful of tweaks to tidy things up.
 
 ## Installation
 
-From the Discourse admin section go to Customize > CSS/HTML, click **Import** and select
-the file [libcrowds-theme.dcstyle.json](libcrowds-theme.dcstyle.json). Once the import is
-complete check the **Enabled** box and click **Save**.
+- Login to your Discourse instance as an administrator.
+- Navigate to **Customize > CSS/HTML**.
+- Click **Import**.
+- Either copy the raw text from
+[libcrowds-theme.dcstyle.json](https://raw.githubusercontent.com/LibCrowds/libcrowds-discourse-theme/master/libcrowds-theme.dcstyle.json) into
+the box provided, or import the same file.
 
 
-## Requirements
+## Dependencies
 
-Note that this theme should be updated if any of the following files
-from [libcrowds-pybossa-theme](https://github.com/LibCrowds/libcrowds-pybossa-theme) are moved:
+Note that this theme pulls in the following files the [libcrowds-pybossa-theme](https://github.com/LibCrowds/libcrowds-pybossa-theme):
 
 * [styles.min.css](https://github.com/LibCrowds/libcrowds-pybossa-theme/blob/master/static/css/styles.min.css)
 * [pybossa.png](https://github.com/LibCrowds/libcrowds-pybossa-theme/blob/master/static/img/pybossa.png)
 * [bl-logo.png](https://github.com/LibCrowds/libcrowds-pybossa-theme/blob/master/static/img/bl-logo.png)
 
+This theme should be updated if any of those files are moved.
 
-## Contributing
 
-Any suggestions or bugs can be reported as [issues](https://github.com/LibCrowds/libcrowds-discourse-theme/issues).
+## Development
+
+To update the theme, edit it from within your Discourse instance , via **Customize > CSS/HTML**. To create a new
+[libcrowds-theme.dcstyle.json](https://raw.githubusercontent.com/LibCrowds/libcrowds-discourse-theme/master/libcrowds-theme.dcstyle.json)
+file, click the **Export** button.
